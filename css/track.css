@@ -1,0 +1,193 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+h3{
+	color: #F96;
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+th {
+	padding: 7px 0;
+	margin: 3px 0;
+	text-align: left;
+	border-right: 1px solid #dfdfdf;
+}
+
+td {
+	font-size: 13.5px;
+	padding: 4.5px 4px;
+	margin: 3px 0; 
+	text-align: left;
+	border-right: 1px solid #dfdfdf;
+	border-left: 1px solid #dfdfdf;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+td.last {
+	border-right: 0;
+}
+
+#contact1 input[type="text"], #contact1 input[type="email"], #contact1 input[type="tel"], #contact1 input[type="url"], #contact1 textarea, #contact1 button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+
+
+
+#contact {
+	background: #F9F9F9;
+    padding: 60px 66px 37px 68px;
+    margin-left: 22%;
+    margin-top: 30%;
+    margin-bottom: 3%;
+    /* position: relative; */
+    top: 42px;
+    /* height: 40px; */
+    width: 50%;
+    box-shadow: 1px 1px 10px #0160a4;
+}
+
+#contact1 {
+    background: #F9F9F9;
+    padding: 60px 66px 37px 68px;
+    /* margin-left: 34%; */
+    /* margin-top: 33%; */
+    margin-bottom: 3%;
+    position: relative;
+    /* top: 42px; */
+    /* height: 40px; */
+    width: 40%;
+    box-shadow: 1px 1px 10px #53c5cf;
+}
+
+#contact2 {
+	background: #F9F9F9;
+    padding: 60px 3px 41px 87px;
+    /* margin-left: 22%; */
+    margin-top: 12%;
+    margin-bottom: 3%;
+    /* position: relative; */
+    top: 42px;
+    /* height: 40px; */
+    width: 68%;
+    box-shadow: 1px 1px 10px #0160a4;
+
+
+
+}
+
+#contact3 {	
+	    
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 3% 0% 5%;
+    /* position: relative; */
+    top: 42px;
+    /* height: 40px; */
+    width: 100%;
+    box-shadow: 1px 1px 10px #0160a4;
+    min-height: 400px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact1 input[type="text"],#contact1 input[type="password"], #contact1 input[type="email"], #contact1 input[type="tel"], #contact1 input[type="url"], #contact1 textarea,#contact1 input[type="date"] {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 10px;
+	padding:10px;
+	color:black;
+}
+
+#contact2 input[type="text"], #contact2 input[type="email"], #contact2 input[type="tel"], #contact2 input[type="url"], #contact2 textarea,#contact2 input[type="date"] {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:8px;
+	color:black;
+}
+
+#contact3 input[type="date"] {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:8px;
+	color:black;
+}
+
+#contact2 input[type="text"]:hover, #contact2 input[type="email"]:hover, #contact2 input[type="tel"]:hover, #contact2 input[type="url"]:hover, #contact2 textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact1 input[type="text"]:hover, #contact1 input[type="email"]:hover, #contact1 input[type="tel"]:hover, #contact1 input[type="url"]:hover, #contact1 textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact2 textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact1 button[type="submit"],#contact2 button[type="submit"], #contact3 button[type="submit"]  {
+	cursor:pointer;
+	width:100px;
+	border:none;
+	background:#58c5cf;
+	color:#FFF;
+	margin: 1px 1px 1px 10px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact1 button[type="submit"]:hover, #contact2 button[type="submit"]:hover ,#contact3 button[type="submit"]:hover  {
+	background:#09C;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999; 
+}
+
+#contact1 button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact1 input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
+#contact1
+{
+   box-shadow: 2px 4px 9px #53c5cf;
+}
